@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "818367989466",
+    "project_id": "trendy-83364",
+    "storage_bucket": "trendy-83364.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818367989466:android:1de8d15f17ac11f7d9c7e3",
+        "android_client_info": {
+          "package_name": "com.vibe.trendy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818367989466-62gjumvrtl45i080phh6hqs4dodedi9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibe.trendy",
+            "certificate_hash": "125cca693f93d2fd0ce6ca4d637244473dc26539"
+          }
+        },
+        {
+          "client_id": "818367989466-9jsv0gn61i4i2ijgt5276vjo2csqvrc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibe.trendy",
+            "certificate_hash": "9a4f318806e6ebeedceaf88f4daa88f48da518a9"
+          }
+        },
+        {
+          "client_id": "818367989466-3emo2b9s18nsb43s5aehihabtdvg9jpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb-0MsyxpID3b8WRAyiDwDlgY19TUETEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818367989466-3emo2b9s18nsb43s5aehihabtdvg9jpc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "818367989466-sftdvgrom624gf6ommr1q7b0s9pj7m69.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vibe.trendy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

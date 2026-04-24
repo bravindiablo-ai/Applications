@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-08-23 21:47:07",
+  "base_url": "http://localhost:8000",
+  "tests": [
+    {
+      "endpoint": "/",
+      "status": 404,
+      "success": false,
+      "response_time": 2.031944,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/health",
+      "status": 200,
+      "success": true,
+      "response_time": 2.030975,
+      "data_size": 54,
+      "data_preview": "{'status': 'healthy', 'message': 'TRENDY API is running'}"
+    },
+    {
+      "endpoint": "/api/movies",
+      "status": 404,
+      "success": false,
+      "response_time": 2.024633,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/movies/trending",
+      "status": 404,
+      "success": false,
+      "response_time": 2.037757,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/music",
+      "status": 404,
+      "success": false,
+      "response_time": 2.028993,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/music/trending",
+      "status": 404,
+      "success": false,
+      "response_time": 2.021501,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/music/genres",
+      "status": 404,
+      "success": false,
+      "response_time": 2.019102,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/football",
+      "status": 404,
+      "success": false,
+      "response_time": 2.051079,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/football/live",
+      "status": 404,
+      "success": false,
+      "response_time": 2.025281,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/photos",
+      "status": 404,
+      "success": false,
+      "response_time": 2.039308,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/photos/trending",
+      "status": 404,
+      "success": false,
+      "response_time": 2.052044,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/photos/categories",
+      "status": 404,
+      "success": false,
+      "response_time": 2.046337,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/weather/current/London",
+      "status": 404,
+      "success": false,
+      "response_time": 2.03833,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/news/trending",
+      "status": 404,
+      "success": false,
+      "response_time": 2.032466,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/crypto/prices",
+      "status": 404,
+      "success": false,
+      "response_time": 2.045368,
+      "data_size": 0
+    },
+    {
+      "endpoint": "/api/crypto/trending",
+      "status": 404,
+      "success": false,
+      "response_time": 2.054276,
+      "data_size": 0
+    }
+  ],
+  "database": false,
+  "data_fetching": null
+}

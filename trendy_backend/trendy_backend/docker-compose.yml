@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: trendydb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+  backend:
+    build: .
+    environment:
+      - DATABASE_URL=postgresql+psycopg2://postgres:postgres@db:5432/trendydb
+      - REDIS_URL=redis://redis:6379
+      - FIREBASE_CREDENTIALS_JSON_PATH=/app/trendy-83364-firebase-adminsdk-fbsvc-1a3dbe98af.json
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+volumes:
+  pgdata:

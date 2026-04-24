@@ -1,0 +1,93 @@
+# Secrets
+.env
+*.env
+**/.env
+.env.*
+!/.env.example
+!/.env.template
+firebase_credentials.json
+**/firebase_credentials.json
+*.backup
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.venv/
+venv/
+ENV/
+env/
+
+# Flutter/Dart
+trendy/.dart_tool/
+trendy/.flutter-plugins
+trendy/.flutter-plugins-dependencies
+trendy/.packages
+trendy/build/
+trendy/ios/Flutter/ephemeral/
+trendy/ios/.symlinks/
+trendy/ios/Pods/
+trendy/macos/Flutter/ephemeral/
+trendy/macos/Pods/
+trendy/linux/flutter/ephemeral/
+trendy/windows/flutter/ephemeral/
+trendy/android/.gradle/
+trendy/android/app/debug/
+trendy/android/app/profile/
+trendy/android/app/release/
+trendy/web/.last_build_id
+*.g.dart
+*.freezed.dart
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+trendy_backend/*.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+push_error.txt
+
+# Misc
+node_modules/
+
